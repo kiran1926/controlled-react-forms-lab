@@ -1,0 +1,69 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color:  rgb(169, 12, 201);
+  }
+  
+  button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(114, 8, 200);
+    border-color:  rgb(121, 11, 185);
+    color: aliceblue;
+  }
+  
+  .bookshelfDiv {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formDiv {
+    width: 60%;
+    border: 1px solid #df8fee;
+    border-radius: 10px;
+    background-color: #f0dff3; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #d092dc ;
+    box-shadow: 0 4px 8px #d092dc;
+  }
+  
+  .bookCardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .bookCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 5px;
+    width: 40%;
+    margin: 15px 10px;
+    background-color: rgb(218, 193, 236);
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px #d092dc;
+  }
